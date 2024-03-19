@@ -34,7 +34,7 @@ cy.url().should('include', '/my-account')
     cy.get ('#user').type('bruno.gennari@gmail.com')
     cy.get ('#password').type('123')
     cy.get ('#btnLogin').click()
-    cy.get('.invalid_input').should('have.text', 'Senha inválida.') 
+    cy.get('.invalid_input').should('have.text', 'Senha inválida.')
 })
 
 // Email Invalido
@@ -70,3 +70,4 @@ cy.url().should('include', '/my-account')
 })
 
 })
+

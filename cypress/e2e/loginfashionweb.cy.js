@@ -4,7 +4,7 @@ describe('Login', () => {
 
 //dado
 //acessar aplicacao  
-cy.visit ('hhttps://demo.sylius.com/en_US/login')
+cy.visit ('https://demo.sylius.com/en_US/login')
 })
 
 
@@ -21,4 +21,5 @@ cy.get ('#_password').type('sylius')
 //clicar em credenciais
 cy.get ('.ui.blue.subbimit.button').click()
 
-})  
+})
+
