@@ -7,9 +7,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@playwright/test": "^1.41.1",
     "@types/node": "^20.11.10",
-    "cypress": "^13.6.6"
+    "cypress": "^13.6.6",
+    "cypress-mochawesome-reporter": "^3.8.2"
   },
   "directories": {
     "test": "tests"
